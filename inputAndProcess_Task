@@ -1,0 +1,33 @@
+num1 = int(input("Enter First Number :"))
+num2 = int(input("Enter Second Number :"))
+
+if num1 > num2 :
+    num1 += 10
+else:
+    num1 -= 5
+
+print ("Updated first number:", num1)
+
+
+#a= int(input("Enter the integer number: "))
+#b= float(input("Enter the float number: "))
+name1 = input("What’s your name?  ")
+age = int(input("How old are you?  "))
+
+print(f"Hello, {name1}! You are {age} years old")
+
+
+## check if number is even or odd
+#--------------------------------------------
+if (a%2==0):
+    print("a is even number")
+else:
+    print("a is odd number")
+
+# get the remainder and quotient
+#--------------------------------------------
+    remainder = a%2
+    print("The remainder is: ", remainder)
+
+    quotient = a/2
+    print("The quotient is : ", quotient)
