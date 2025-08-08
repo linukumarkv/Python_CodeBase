@@ -1,6 +1,10 @@
 age = int( input("Enter the age:  "))
+membership = input("Do you have membership : (Y/N) : ")
 
-is_member = True
+if membership == "Y":    
+   is_member = True
+else:
+    is_member = False
 
 if age >=60 :
    print("Eligible for discount")
