@@ -12,11 +12,16 @@ if choice == 1:
     result = num1 + num2
 elif choice == 2:
     result = num1 - num2
-if choice == 3:
+elif choice == 3:
     result = num1 * num2
 elif choice == 4:
     result = num1 / num2
+else:
+    print("Invalid Option")
 
-print("Result: ", result)
+if result!=0:
+    print("Result: ", result)
+
+
 
 
