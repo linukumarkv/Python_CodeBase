@@ -31,3 +31,17 @@ minutes = float(seconds//60)
 sec = seconds % 60
 
 print(f"{minutes} minutes and  {sec} seconds")
+
+"""------------------------------------------------------------------------------------------
+Varun measures his running speed in kilometers per hour. For a better understanding, he wants to
+know his speed in meters per second as well. But he is facing a problem in calculating his speed in
+meters per second. Write a program for Varun where he can enter the speed in kilometers per hour and
+he can get the speed in meters per second.
+he can get the speed in meters per second.
+"""
+
+speed_km = int(input("Enter the Speed in km/hr: "))
+
+speed_meterPerSec = speed_km* 1000/(60*60)
+
+print(f"{speed_meterPerSec} meter per second")
