@@ -47,4 +47,19 @@ speed_meterPerSec = speed_km* 1000/(60*60)
 print(f"{speed_meterPerSec} meter per second")
 
 
+"""---------------------------------------------------------------------------------------------
+Nidhi loves to travel to different countries. She is now in a country where the temperature is measured 
+in Fahrenheit and she is not able to understand it in a better way. To help her in this situation, write a 
+program to convert temperature from Fahrenheit to celsius.
+● Hint: (0°C × 9/5) + 32 = 32°F
+"""
+
+inPutTemp = int(input("Enter the temperature in Fahrenheit: "))
+
+ #t= (inPutTemp *9/5) + 32
+
+temperature = (inPutTemp - 32) *5/9
+
+print(f" The temperature is {temperature} Celsius ")
+
 
