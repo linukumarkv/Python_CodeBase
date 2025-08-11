@@ -63,3 +63,40 @@ temperature = (inPutTemp - 32) *5/9
 print(f" The temperature is {temperature} Celsius ")
 
 
+"""----------------------------------------------------------------------------------------------------
+In a school, the teacher asks students to tell whether the given number on the board is odd or even. 
+Students were taking a lot of time to find out the answer. But Chirag realized that even and odd 
+depends only on the last digit of the number. So write a program in python to take a number as input 
+and then print only the last digit of the number. Also, discuss whether the given number is odd or even. 
+If given number is even then print True on the screen and if the given number is odd then print False on 
+the screen.
+● Hint: Take the number as input and then use “%10” to extract the last digit of the given number.
+
+"""
+
+numberInput = int(input("Enter the Number: "))
+
+check = numberInput%10
+
+if check%2==0:
+    print("Even")
+else:
+    print("odd")
+
+"""----------------------------------------------------------------------------------------------------
+Shubham and his two more friends decided to share their chocolates equally among them. But they 
+couldn't divide chocolates equally as they need a few more chocolates. Write a program to take three 
+inputs for the number of chocolates and then print how many more chocolates they need to buy to 
+divide it equally
+"""
+friend1 = int(input("Enter the Number of Chcocolates 1: "))
+friend2 = int(input("Enter the Number of Chcocolates 2: "))
+friend3 = int(input("Enter the Number of Chcocolates 3: "))
+
+total = friend1 + friend2 + friend3
+rem = total % 3 
+if rem==0:
+    print("Equally Shared")
+else:
+   print(f"Need {3-rem} more chocolates") 
+
