@@ -45,3 +45,6 @@ speed_km = int(input("Enter the Speed in km/hr: "))
 speed_meterPerSec = speed_km* 1000/(60*60)
 
 print(f"{speed_meterPerSec} meter per second")
+
+
+
